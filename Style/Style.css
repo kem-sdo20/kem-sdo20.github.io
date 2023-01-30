@@ -1,0 +1,67 @@
+h1{
+    margin: -2% 0% 0% 0%;
+    text-align:center;
+    font-size: 300%;
+}
+p{
+    padding-top: 2%;
+    text-align:center;
+    font-style:italic;
+    font-size: 150%;    
+}
+
+button {
+    
+    margin: 0 auto;
+    display: block;
+    padding: 1% 4%;
+   
+}
+.сolumn{
+    	
+	display: inline-block;
+	width: 48%;  
+}
+
+.level1{    
+    text-align:center;
+    font-style:normal;
+    font-size: 150%;    
+  
+}
+
+input {
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    
+}
+
+label{
+        display:block;
+}
+
+select{
+    font-size: 75%;
+    text-align:center;
+    font-style:normal;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+.report{
+    padding-bottom: 2%;
+    text-align:center;
+    font-style:normal;
+    font-size: 150%;   
+     
+}
+input[type=checkbox] {
+    padding-top: 2%;
+    margin: 0 auto;
+    display: block;
+    transform:scale(1.5);   
+    }
+.ident{
+    padding-top: 5%;
+}

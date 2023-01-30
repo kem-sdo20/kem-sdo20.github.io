@@ -1,0 +1,41 @@
+body{
+    background: rgb(239, 236, 219);
+	padding: 80px;
+}
+
+h1{
+color: rgb(94, 33, 155);
+}
+
+p{
+    color: rgb(87, 26, 144);
+}
+.level1{
+    color: rgb(14, 9, 17);
+}
+input[type="text"]:active, input[type="email"]:active {
+    background-color:rgba(0, 0, 0, 0.1);
+    color:rgba(107, 166, 84, 0.1);
+}
+input{
+    
+    border-width: 2px;
+    border-color: #1f1223;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+button{
+    color: rgb(239, 236, 219);
+    background: rgb(94, 33, 155);
+}
+select{
+    border-width: 2px;
+    border-color: #1f1818;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+span{
+    color: rgb(130, 31, 31);
+}
+.report{
+    color: black;
+}
