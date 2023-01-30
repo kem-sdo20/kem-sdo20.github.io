@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="Style/Color.css">
+    <link rel="stylesheet" href="Style/valid.css">
+    <link rel="stylesheet" href="Style/Style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>
+            Регистрация участников конференции
+        </h1>
+
+    </header>
+    
+            <p> Заполните форму участника </p>
+        
+                
+            <form action="" method="post">
+                
+              <div class="сolumn">
+                
+                <p class="level1"><label for="surname">Фамилия <span>*</span></label> 
+                   
+            <input type="text" id="surname" name="surname" 
+                required pattern="[А-Яа-яЁё]+" title="Русские буквы от А-я">
+            <label for="name">Имя<span>*</span></label>
+            <input type="text" id="name" name="name"
+                required pattern="[А-Яа-яЁё]+" title="Русские буквы от А-я" >
+
+                <label for="patronym">Отчество<span>*</span></label>
+            <input type="text" id="patronym" name="patronym"
+                required pattern="[А-Яа-яЁё]+" title="Русские буквы от А-я"></p>
+            </div>
+
+            <div class="сolumn">
+            <p class="level1">   
+            <label for="number">Контактный телефон<span>*</span></label>
+            <input type="tel" id="number" name="number" title="+7xxxxxxxxxx"
+                required sp maxlength="12" minlength="12" pattern=[\+][0-9]{11}>                
+                
+                <label for="Email">Почта<span>*</span></label>
+            <input type="email" id="Email" name="Email"
+                required> 
+            
+             <label for="Date of Birth">Дата рождения:</label>
+            <input type="date" id="Date of Birth" name="Date of Birth"> </p>
+            </div>
+            
+            <p class="level1"> <label for="subject">Выбор предмета<span>*</span></label>
+            <select id="subject" name="subject" required>
+                <option value="math">Математика</option>
+                <option value="physics">Физика</option>
+                <option value="chemistry">Информатика</option>
+            </select></p>
+            
+        
+            <p class="report">Доклад <input type="checkbox" id="yes" 
+    
+                onclick="if(yes.checked){this.nextSibling.style.display=''}
+                else {this.nextSibling.style.display='none';  this.nextSibling.value='';}
+                "><input type="text" style="display:none;" title="Тема доклада"> </p>
+
+               <button>Отправить</button>
+       
+            </form>
+        
+    <footer>
+        <p>  Ждём вас на конференции!</p>
+    </footer>
+
+</body>
+</html>
